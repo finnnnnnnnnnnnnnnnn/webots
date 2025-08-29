@@ -22,7 +22,7 @@ export WEBOTS_HOME = $(PWD)
 endif
 endif
 
-echo $(WEBOTS_HOME)
+$(info Webbots home is $(WEBOTS_HOME))
 
 include resources/Makefile.os.include
 
