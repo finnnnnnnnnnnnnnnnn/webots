@@ -23,6 +23,7 @@ endif
 endif
 
 $(info Webbots home is $(WEBOTS_HOME))
+$(info Pwd home is $(PWD))
 
 include resources/Makefile.os.include
 
